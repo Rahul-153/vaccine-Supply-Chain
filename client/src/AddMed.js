@@ -93,10 +93,10 @@ function AddMed() {
             <span><b>Current Account Address:</b> {currentaccount}</span>
             <span onClick={redirect_to_home} className="btn btn-outline-danger btn-sm"> HOME</span>
             <br />
-            <h5>Add Medicine Order:</h5>
+            <h5>Add Vaccine Order:</h5>
             <form onSubmit={handlerSubmitMED}>
-                <input className="form-control-sm" type="text" onChange={handlerChangeNameMED} placeholder="Medicine Name" required />
-                <input className="form-control-sm" type="text" onChange={handlerChangeDesMED} placeholder="Medicine Description" required />
+                <input className="form-control-sm" type="text" onChange={handlerChangeNameMED} placeholder="Vaccine Name" required />
+                <input className="form-control-sm" type="text" onChange={handlerChangeDesMED} placeholder="Vaccine Description" required />
                 <button className="btn btn-outline-success btn-sm" onSubmit={handlerSubmitMED}>Order</button>
             </form>
             <br />

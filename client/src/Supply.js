@@ -136,11 +136,11 @@ function Supply() {
             <span><b>Current Account Address:</b> {currentaccount}</span>
             <span onClick={redirect_to_home} className="btn btn-outline-danger btn-sm"> HOME</span>
             <h6><b>Supply Chain Flow:</b></h6>
-            <p>Medicine Order -&gt; Raw Material Supplier -&gt; Manufacturer -&gt; Distributor -&gt; Retailer -&gt; Consumer</p>
+            <p>Vaccine Order -&gt; Raw Material Supplier -&gt; Manufacturer -&gt; Distributor -&gt; Retailer -&gt; Consumer</p>
             <table className="table table-sm table-dark">
                 <thead>
                     <tr>
-                        <th scope="col">Medicine ID</th>
+                        <th scope="col">Vaccine ID</th>
                         <th scope="col">Name</th>
                         <th scope="col">Description</th>
                         <th scope="col">Current Processing Stage</th>
